@@ -1,6 +1,6 @@
 package lesson01.part1;
 
-public class Task11 {
+public class  Task11 {
 
     /**
      * Нужно посчитать, сколько литров воды нужно для заполнения бассейна до бортов.
@@ -28,7 +28,8 @@ public class Task11 {
 
         public long getVolume(int a, int b, int c) {
             //напишите тут ваш код
-            return 0;
+            long litres = a*b*c*1000;
+            return litres;
         }
 
     }
